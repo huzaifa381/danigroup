@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>DANI GROUP.</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav id="nvb" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand animate__animated animate__headShake animate__delay-2s animate__infinite infinite"
+                href="index.html">DANI GROUP.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active animate__animated animate__headShake animate__delay-2s"
+                            aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle animate__animated animate__headShake animate__delay-2s"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__headShake animate__delay-2s" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__headShake animate__delay-2s"
+                            href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__headShake animate__delay-2s" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__headShake animate__delay-2s" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__headShake animate__delay-2s"
+                            href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__headShake animate__delay-2s btn btn-danger"
+                            id="btn" href="#">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slide-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide. Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. Sapiente maxime quibusdam et sint mollitia officiis dolore qui
+                        adipisci? Vel, sequi!</p>
+                    <button id="b1" class="btn btn-danger">Read More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Quo quisquam sint laborum nisi eligendi! Earum sunt magnam sed
+                        maxime expedita!</p>
+                    <button id="b1" class="btn btn-danger">Read More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Corporis nam illo quo maiores consequuntur est autem. Aut tempora
+                        id consequuntur.</p>
+                    <button id="b1" class="btn btn-danger">Read More</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- rows -->
+    <!-- 1st row -->
+    <div class="container" id="r1">
+        <div class="row">
+            <div class="col-lg-6" id="col1">
+                <h1>EUM IPSAM LABORUM DELENITI VELITENA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quis nostrum amet a commodi. Lorem ipsum
+                    dolor sit amet.</p>
+            </div>
+            <div class="col-lg-6" id="col2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolor dignissimos consequuntur
+                recusandae officia excepturi, facilis adipisci, minus fugit qui corrupti, vitae libero magnam aliquid
+                consequatur optio labore ea corporis beatae provident possimus. Illum nam incidunt nisi, perspiciatis
+                culpa quo id explicabo ad!
+                <br>
+                <p id="p1"><i id="i1" class="fa fa-angle-double-right"></i> Lorem ipsum dolor sit amet consectetur
+                    adipisicing.</p>
+                <p id="p1"> <i id="i1" class="fa fa-angle-double-right"></i> Lorem ipsum dolor sit amet consectetur
+                    adipisicing.</p>
+                <p id="p1"><i id="i1" class="fa fa-angle-double-right"></i>Lorem ipsum dolor sit amet consectetur
+                    adipisicing.</p>
+                <br>
+                <p id="par"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus numquam in alias vel
+                    suscipit non sed
+                    cumque aliquam facere.
+                </p>
+            </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="row bg-light" id="r2">
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="images/client-1.png" alt="" height="25" width="80" srcset="">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="images/client-2.png" alt="" height="25" width="80" srcset="">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="images/client-3.png" alt="" height="25" width="80" srcset="">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="images/client-4.png" alt="" height="25" width="80" srcset="">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="images/client-5.png" alt="" height="25" width="80" srcset="">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="images/client-6.png" alt="" height="25" width="80" srcset="">
+            </div>
+        </div>
+        <!-- 3rd row -->
+        <div class="row" id="r3">
+            <div id="d1" class="col-lg-6 col-md-6 col-sm-12 bg-light hell">
+                <div class="col-lg-2" style="padding: 15px;">
+                    <i id="i" class="fa fa-desktop fa fa-2x"></i>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Lorem, ipsum.</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+            <div id="d2" class="col-lg-6 col-md-6 col-sm-12 bg-light hell">
+                <div class="col-lg-2" style="padding: 15px;">
+                    <i id="i" class="fa fa-calendar fa fa-2x"></i>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Lorem, ipsum.</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+        <!-- 4th row -->
+        <div class="row" id="r4">
+            <div id="d3" class="col-lg-6 col-md-6 col-sm-12 bg-light hell">
+                <div class="col-lg-2" style="padding: 15px;">
+                    <i id="i" class="fa fa-signal fa fa-2x"></i>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Lorem, ipsum.</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+            <div id="d4" class="col-lg-6 col-md-6 col-sm-12 bg-light hell">
+                <div class="col-lg-2" style="padding: 15px;">
+                    <i id="i" class="fa fa-edit fa fa-2x"></i>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Lorem, ipsum.</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+        <!-- 5th row -->
+        <div class="row" id="r5">
+            <div id="d5" class="col-lg-6 col-md-6 col-sm-12 bg-light hell">
+                <div class="col-lg-2" style="padding: 15px;">
+                    <i id="i" class="fa fa-sun-o fa fa-2x"></i>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Lorem, ipsum.</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+            <div id="d6" class="col-lg-6 col-md-6 col-sm-12 bg-light hell">
+                <div class="col-lg-2" style="padding: 15px;">
+                    <i id="i" class="fa fa-shopping-cart fa fa-2x"></i>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Lorem, ipsum.</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- buttons -->
+    <div class="container-fluid" id="b2">
+        <button class="btn btn-danger">ALL</button> <button class="btn">APP</button> <button class="btn ">CARD</button>
+        <button class="btn ">WEB</button>
+    </div>
+
+    <!-- images -->
+    <div class="container">
+        <div class="row">
+            <div id="d" class="col-lg-4  col-md-6 col-sm-12 mb-3">
+                <img src="images/portfolio-1.jpg" height="250px" width="350px" alt="">
+                <img style="margin-top: 20px;" src="images/portfolio-6.jpg" height="450px" width="350px" alt="">
+            </div>
+            <div id="d" class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <img src="images/portfolio-2.jpg" height="200px" width="350px" alt="">
+                <img style="margin-top: 20px;" src="images/portfolio-5.jpg" height="420px" width="350px" alt="">
+                <img style="margin-top: 20px;" src="images/portfolio-9.jpg" height="200px" width="350px" alt="">
+            </div>
+            <div id="d" class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <img src="images/portfolio-3.jpg" height="170px" width="350px" alt="">
+                <img style="margin-top: 20px;" src="images/portfolio-4.jpg" height="220px" width="350px" alt="">
+                <img style="margin-top: 20px;" src="images/portfolio-7.jpg" height="200px" width="350px" alt="">
+                <img style="margin-top: 20px;" src="images/portfolio-8.jpg" height="180px" width="350px" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid" id="container">
+        <div class="row">
+            <div class="col-lg-3 fa1">
+                <h6>DANI GROUP.</h6>
+                <span>B106 John Street</span>
+                <p>NY 10003 , USA</p>
+                <br>
+                <span>Phone:+92(316)769-4118</span><br>
+                <span>email:contact@danigroup.com</span><br><br>
+                <a href="https://www.facebook.com/profile.php?id=100007984005044" id="fa1" class="fa fa-facebook"><i></i></a>
+                <a href="https://twitter.com/huzaifabilal_" id="fa2" class="fa fa-twitter"><i></i></a>
+                <a href="https://www.instagram.com/huzaifabilalll/" id="fa3" class="fa fa-instagram"><i></i></a>
+                <a href="https://www.linkedin.com/in/huzaifa-bilal-676473214/" id="fa4" class="fa fa-linkedin"><i></i></a>
+
+            </div>
+            <div class="col-lg-3 fa2">
+                <h6 style="color: white;">Useful Links</h6>
+                <ul class="list-group">
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">Home
+                    </li>
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">About
+                        Us</li>
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">
+                        Services</li>
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">Terms
+                        of Service</li>
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">
+                        Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 fa3">
+                <h6 style="color: white;">Our services</h6>
+                <ul class="list-group">
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">Web
+                        Design</li>
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">Web
+                        Development</li>
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">
+                        Product Management</li>
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">
+                        Marketing</li>
+                    <li class="fa fa-angle-right animate__animated animate__headShake animate__delay-2s" id="li1">
+                        Graphic Design</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 fa4">
+                <h6 style="color: white;">Our Newsletter</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username"
+                        aria-describedby="basic-addon2">
+                    <span class="input-group-text btn btn-danger" id="basic-addon2">Subscribe</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="dani">
+        <span> &copy; Copyright DANI GROUP. All Rights Reserved</span>
+        <p>Made with Heart in Lahore❤️</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+        </script>
+</body>
+
+</html>
